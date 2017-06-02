@@ -1,6 +1,6 @@
 FROM ubuntu:16.10
 
-RUN apt-get update -y && apt-get install -y texlive texlive-latex-extra python-pip imagemagick pkg-config
+RUN apt-get update -y && apt-get install -y texlive texlive-latex-extra python-pip imagemagick pkg-config dvipng
 
 RUN pip install cython
 RUN pip install numpy
